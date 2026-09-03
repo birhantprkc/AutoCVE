@@ -69,6 +69,7 @@ class QueryLoop:
         re.compile(r"让我继续"),
         re.compile(r"让我再看"),
         re.compile(r"我再看"),
+        re.compile(r"让我看看"),
         re.compile(r"let me continue", re.IGNORECASE),
         re.compile(r"i(?:'| wi)ll continue", re.IGNORECASE),
         re.compile(r"let me inspect", re.IGNORECASE),
